@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="StyleSheet.css" rel="stylesheet" type="text/css" media="screen" />
+ <!--<link rel="stylesheet" href="c.css" type="text/css" media="screen"/> -->
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="Home.aspx" class="first">Home</a></li>
+								<li><a href="AboutUs.aspx" class="first">About Us</a></li>
+
+				
+			
+			
+				<li><a href="Hypothesis.aspx">Generate Hypothesis</a></li>
+				<li><a href="FAQ.aspx">FAQ</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		
+		<!-- end #search -->
+	</div>
+</div>
+<!-- end #header -->
+<!-- end #header-wrapper -->
+<div id="logo">
+	<h1><a href="Home.aspx">Research Pro</a></h1>
+	<p><em>Research Tool to Assest Researcher</em></p>
+</div>
+<hr />
+<!-- end #logo -->
+<div id="page">
+	<div id="page-bgtop">
+		 <asp:ContentPlaceHolder ID="bodycontent" runat="server">
+        </asp:ContentPlaceHolder>
+		<div id="sidebar">
+			<ul>
+					<li>
+				
+					<ul>
+				<li><a href="Home.aspx">Home</a></li>
+				<li><a href="AboutUs.aspx" class="first">About Us</a></li>
+				
+			
+				<li><a href="Hypothesis.aspx">Generate Hypothesis</a></li>
+				<li><a href="FAQ.aspx">FAQ</a></li>
+						
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+       
+
+	</div>
+	<!-- end #page -->
+	<div id="footer">
+		<p>Copyright &copy 2019 Designed by<a href="http://www.freecsstemplates.org/">Free CSS Templates</a>. Modified by The Hypothesis Group</p>
+	</div>
+	<!-- end #footer -->
+</div>
+
+</body>
+</html>
