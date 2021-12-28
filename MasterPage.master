@@ -21,6 +21,7 @@
 			<ul>
 				<li><a href="Home.aspx" class="first">Home</a></li>
 								<li><a href="AboutUs.aspx" class="first">About Us</a></li>
+				<li><a href="objform.aspx" class="first">Generate Objectives</a></li>
 
 				
 			
@@ -53,7 +54,7 @@
 					<ul>
 				<li><a href="Home.aspx">Home</a></li>
 				<li><a href="AboutUs.aspx" class="first">About Us</a></li>
-				
+				<li><a href="objform.aspx" class="first">Generate Objectives</a></li>
 			
 				<li><a href="Hypothesis.aspx">Generate Hypothesis</a></li>
 				<li><a href="FAQ.aspx">FAQ</a></li>
